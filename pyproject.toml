@@ -1,0 +1,5 @@
+[project]
+name = "python-lab"
+version = "0.1.0"
+description = "Projeto profissional estruturado"
+authors = [{name="Renato Soares"}]
