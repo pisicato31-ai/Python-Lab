@@ -1,4 +1,6 @@
-class ExampleService:
+from python_lab.services.example_service import ExampleService
 
-    def process(self, name: str) -> str:
-        return f"Projeto profissional rodando para {name}"pip freeze > requirements.txt
+def test_process():
+    service = ExampleService()
+    result = service.process("Teste")
+    assert result == "Projeto profissional rodando para Teste"
